@@ -151,7 +151,7 @@ aside {
 }
 
 .social:hover{
-    border-bottom: 10px double #133aac;
+    border-bottom: 10px double orange;
 }
 
 .aside-text {
@@ -160,7 +160,7 @@ aside {
 }
 
 .aside-text:hover {
-    color: #ffc800;
+    color: orange;
 }
 
 .aside-text:hover::before {
