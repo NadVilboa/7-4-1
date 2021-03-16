@@ -91,7 +91,7 @@ h2 {
     position: relative;
 }
 
-.hit {
+.img-hit {
     position: absolute;
     display: inline-block;
     right: 20px;
@@ -130,39 +130,59 @@ h2 {
 }
 
 .full-image {
-    margin-bottom: 180px;
+    margin: 100px 0px 100px 0px;
 }
 
-footer {
-    background-color: #5fc0ec;
-    display: flex;
+aside {
     position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 40px 0px 20px 45px;
+    right: 0;
+    top: 230px;
+    background-color: #3c0470;
+    border-radius: 10px;
+    width: 100px;
+    height: 390px;
+    padding: 20px;
 }
 
 .social {
-    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 25px;
     display: block;
 }
 
-.footer-text {
-    align-items: flex-start;
-    font-size: 24px;
-}
-
-footer a:hover{
+.social:hover{
     border-bottom: 10px double #133aac;
 }
 
-.footer-text:hover {
-    color: orangered;
+.aside-text {
+    font-size: 20px;
+    color: white;
 }
 
-.footer-text:hover::before {
+.aside-text:hover {
+    color: #ffc800;
+}
+
+.aside-text:hover::before {
     content: url("https://mars.algoritmika.org/uploads/2021/03/bulb-29050_0_1615894644.svg");
     width: 50px;
     height: 50px;
     display: inline-block;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+}
+
+.footer-text span {
+    color: #3c0470;
+    font-weight: bolder;
 }
