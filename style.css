@@ -200,6 +200,21 @@ footer {
 }
 
 .footer-text span {
-    color: #3c0470;
+    color: #850AE5;
     font-weight: bolder;
+}
+
+.address::before {
+    content: url("https://mars.algoritmika.org/uploads/2021/03/home_0_1616091816.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tel::before {
+    content: url("https://mars.algoritmika.org/uploads/2021/03/tel_0_1616091817.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
 }
