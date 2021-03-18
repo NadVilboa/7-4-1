@@ -54,6 +54,22 @@ h1 {
     margin-bottom: 40px;
 }
 
+h1::before {
+    content: url("https://mars.algoritmika.org/uploads/2021/03/Rectangle1_0_1616084234.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1::after {
+    content: url("https://mars.algoritmika.org/uploads/2021/03/Rectangle1_0_1616084234.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
 h2 {
     position: relative;
 }
