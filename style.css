@@ -91,6 +91,7 @@ h2 {
     padding: 15px 45px 30px 45px;
     width: 400px;
     margin: 20px;
+    position: relative;
 }
 
 .post:hover {
@@ -101,10 +102,6 @@ h2 {
     color: white;
     left: 30px;
     font-size: 25px;
-}
-
-.post {
-    position: relative;
 }
 
 .img-hit {
