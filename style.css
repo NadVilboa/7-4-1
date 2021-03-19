@@ -118,7 +118,7 @@ h2 {
     background-color: white;
 }
 
-.post:hover .hit {
+.post:hover .img-hit {
     border: 5px dotted orangered;
     border-radius: 50%;
 }
